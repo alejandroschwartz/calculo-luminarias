@@ -43,8 +43,13 @@
 }
 
 .Header__icon {
-    height: 30px;
-    width: 30px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    font-size: 18px;
+    height: 36px;
+    width: 36px;
     display: none;
 }
 
@@ -74,7 +79,7 @@
         justify-content: end;
         font-size: 28px;
         font-weight: 600;
-        background: rgba(233, 233, 233, 0.7);
+        background: rgba(233, 233, 233, 0.75);
         left: 0;
         top: 50px;
         width: 100vw;
@@ -92,6 +97,6 @@
         width: auto;
         text-align: center;
         border: 2px solid #313434;
-        background: rgba(233, 233, 233, 0.7);
+        background: rgba(0, 92, 151, 0.75); // rgba(233, 233, 233, 0.7);
     }
 }

@@ -3,54 +3,60 @@ export default {
     IntLuminica: [
         {
             "id": 1,
+            "lux": 0,
+            "title": "Seleccionar",
+            "description": " "
+        },
+        {
+            "id": 2,
             "lux": 100,
             "title": "Vivienda - Baño ilum. general",
             "description": " "
         },
         {
-            "id": 2,
+            "id": 3,
             "lux": 200,
             "title": "Vivienda - Baño ilum. localizada sobre espejo",
             "description": " "
         },
         {
-            "id": 3,
+            "id": 4,
             "lux": 200,
             "title": "Vivienda - Dormitorio",
             "description": " "
         },
         {
-            "id": 4,
+            "id": 5,
             "lux": 200,
             "title": "Vivienda - Cocina",
             "description": " "
         },
         {
-            "id": 5,
+            "id": 6,
             "lux": 500,
             "title": "Oficina - Contaduría, tabulaciones, operaciones bursátiles",
             "description": " "
         },
         {
-            "id": 6,
+            "id": 7,
             "lux": 750,
             "title": "Oficina - Computación de datos",
             "description": " "
         },
         {
-            "id": 7,
+            "id": 8,
             "lux": 300,
             "title": "Oficina - Sala de conferencias",
             "description": " "
         },
         {
-            "id": 8,
+            "id": 9,
             "lux": 200,
             "title": "Oficina - Circulación",
             "description": " "
         },
         {
-            "id": 9,
+            "id": 10,
             "lux": 500,
             "title": "Oficina - Trabajo gral, lectura, transcripción de escritura, archivo",
             "description": " "
@@ -59,6 +65,14 @@ export default {
     Lampara: [
         {
             "id": 1,
+            "lux": 0,
+            "watts": 0,
+            "title": "Seleccionar",
+            "description": "RC415B LED20S/940 PSD W15L120 VPC PIP",
+            "image": "https://i.imgur.com/DNJmKEX.jpg"
+        },
+        {
+            "id": 2,
             "lux": 2000,
             "watts": 15.5,
             "title": "Philips PowerBalance gen2 - 2000lux",
@@ -66,7 +80,7 @@ export default {
             "image": "https://i.imgur.com/DNJmKEX.jpg"
         },
         {
-            "id": 2,
+            "id": 3,
             "lux": 3400,
             "watts": 24.5,
             "title": "Philips PowerBalance gen2 - 3400lux",
@@ -74,7 +88,7 @@ export default {
             "image": "https://i.imgur.com/DNJmKEX.jpg"
         },
         {
-            "id": 3,
+            "id": 4,
             "lux": 4000,
             "watts": 36,
             "title": "Philips Panel GreenPerform W4 - 4000lux",
@@ -82,7 +96,7 @@ export default {
             "image": "https://i.imgur.com/wlRO29x.jpg"
         },
         {
-            "id": 4,
+            "id": 5,
             "lux": 3000,
             "watts": 36,
             "title": "Philips Panel LED Essential - 3600lux",
@@ -90,7 +104,7 @@ export default {
             "image": "https://i.imgur.com/WT4RhvL.jpg"
         },
         {
-            "id": 5,
+            "id": 6,
             "lux": 1250,
             "watts": 12,
             "title": "Philips ESS LEDBulb 12W - 1250lux",
@@ -98,7 +112,7 @@ export default {
             "image": "https://i.imgur.com/UtWdad3.jpg"
         },
         {
-            "id": 6,
+            "id": 7,
             "lux": 1400,
             "watts": 14,
             "title": "Philips ESS LEDBulb 14W - 1400lux",
